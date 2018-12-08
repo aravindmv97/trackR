@@ -1,0 +1,44 @@
+$markerColor: red;
+$markerBoxColor: #FF2929;
+$markerPointerColor: #bb001c;
+
+.mapMarker {
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+    background-color: $markerColor;
+    color: white;
+    transition: all .02s ease-in-out;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mapMarker:hover {
+    transform: scale(1.1);
+}
+
+.mapMarker {
+    position: relative;
+    background: $markerBoxColor;
+    border-radius: 2px;
+}
+
+.mapMarker:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 57px;
+    top: 100%;
+    width: 0;
+    height: 0;
+    border: 13px solid transparent;
+    border-top-color: $markerPointerColor;
+    border-bottom: 0;
+    border-left: 0;
+    margin-left: -41.5px;
+    margin-bottom: -83px;
+}

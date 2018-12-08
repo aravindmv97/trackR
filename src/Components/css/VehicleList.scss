@@ -1,0 +1,41 @@
+.dot {
+    height: 7px;
+    width: 7px;
+    border: '3px solid';
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: -10px;
+    margin-right: 10px;
+}
+
+.listContent {
+    padding: 3px;
+    color: gray;
+    font-size: 12px;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    margin-left: 15px;
+}
+
+.dotContainer {
+    flex: 1;
+}
+
+.contentContainer {
+    flex: 8;
+}
+
+.accidentCountContainer {
+    flex: 1;
+}
+
+.badge {
+    align-self: flex-end;
+    padding: 3px;
+    border-radius: 3px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 10px;
+    color: white;
+}

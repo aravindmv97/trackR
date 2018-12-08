@@ -1,0 +1,50 @@
+$marginLeft: 5px;
+$containerHeight: 40px;
+$height: 100%;
+
+.drawerHeader {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    justify-content: center;
+    background-color: #ececec;
+    padding: 3px 5px 3px 5px;
+}
+
+.searchContainer {
+    display: flex;
+    border-radius: 3px;
+    background-color: white;
+    width: $height;
+    height: $containerHeight;
+    box-shadow: 0 1px 1px 1px rgb(211, 212, 212);
+}
+
+.searchIcon {
+    flex: 1;
+    height: $height;
+    pointer-events: none;
+    display: flex;
+    margin-left: $marginLeft;
+    align-items: flex-start;
+    justify-content: flex-start;
+    vertical-align: middle;
+}
+
+.searchBox {
+    flex: 9;
+    height: $containerHeight;
+}
+
+.input {
+    width: 250px;
+    height: $height;
+    margin-left: $marginLeft;
+    border: none;
+    padding: 5px;
+    outline: #fff;
+}
+
+.icon {
+    margin-top: 10px;
+}

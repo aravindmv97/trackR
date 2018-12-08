@@ -1,0 +1,10 @@
+TrackR is an application used to find locations of vehicles in google map.
+
+    
+
+A console has been created where a user can see the location of a vehicle on the map. The console consists of a list of vehicles, their status (red/yellow/green/gray dot) and accident count (number inside a colored box in the corner) on left side in the drawer component, and a map showing their locations in right side. 
+
+Functionality: 
+    * Initially, locations of all vehicles will be displayed, when user hovers on any vehicle name on the list, the hovered vehicle's location is highlighed.
+
+    * When user makes a click on the vehicle name from the list, a popup modal will be displayed having details about the vehicle. 
